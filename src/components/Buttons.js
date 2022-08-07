@@ -1,6 +1,9 @@
 import React from 'react'
 import { StyleSheet, Text, View,TouchableOpacity } from 'react-native'
 
+import React from 'react';
+import {StyleSheet, Text, TouchableOpacity} from 'react-native';
+
 const Buttons = ({on_press,btn_text}) => {
     return (
         <TouchableOpacity style={{justifyContent:'center',width:'95%',backgroundColor:Colors.primary,height:50,marginBottom:30,borderRadius:10}} 
